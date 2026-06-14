@@ -1,0 +1,18 @@
+🖥️ uname
+Por defecto muestra solo el nombre del sistema operativo (ej: Linux).
+Con opciones muestra más detalles:
+
+• uname -a: Todo el resumen → nombre del núcleo, nombre del equipo, versión del sistema, fecha de compilación, arquitectura del procesador
+Ejemplo: Linux mi-equipo 5.15.0-76-generic #83-Ubuntu SMP ... x86_64 GNU/Linux
+• uname -r: Solo la versión del núcleo → 5.15.0-76-generic
+
+• uname -m: Arquitectura → x86_64 o aarch64
+👤 whoami
+Muestra únicamente el nombre de usuario con el que estás conectado en ese momento.
+Ejemplo: Si entraste como "carlos", devuelve simplemente: carlos
+Si estás como administrador, muestra: root
+✅ En una frase:
+
+• uname → Datos del equipo y sistema
+
+• whoami → Tu nombre de usuario actual
